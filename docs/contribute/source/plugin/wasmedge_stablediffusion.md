@@ -76,7 +76,7 @@ cmake --install build
 If the built `wasmedge` CLI tool cannot find the Stable Diffusion plug-in, you can set the `WASMEDGE_PLUGIN_PATH` environment variable to the plug-in installation path (such as `/usr/local/lib/wasmedge/`, or the built plug-in path `build/plugins/wasmedge_stablediffusion/`) to try to fix this issue.
 :::
 
-Then you will have an executable `wasmedge` runtime under `/usr/local/bin` and the Stable Diffusion plug-in under `/usr/local/lib/wasmedge/libwasmedgePluginStableDiffusion.so` after installation.
+Then you will have an executable `wasmedge` runtime under `/usr/local/bin` and the Stable Diffusion plug-in under `/usr/local/lib/wasmedge/libwasmedgePluginWasmEdgeStableDiffusion.so` after installation.
 
 ## More Information
 
