@@ -22,7 +22,7 @@ If `libbpf >= 1.2.0` is not available through your package manager, the build sy
 
 ## Build WasmEdge with Wasm-BPF Plug-in
 
-To enable the WasmEdge Wasm-BPF plug-in, developers need to [build WasmEdge from source](../os/linux.md) with the cmake option `-DWASMEDGE_PLUGIN_WASM_BPF=ON`.
+To enable the Wasm-BPF plug-in, developers need to [build WasmEdge from source](../os/linux.md) with the CMake option `-DWASMEDGE_PLUGIN_WASM_BPF=ON`.
 
 ```bash
 cd <path/to/your/wasmedge/source/folder>
