@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Build with WASI-HTTP Plug-in
 
-The WASI-HTTP plug-in provides an implementation of the [WASI HTTP proposal](https://github.com/WebAssembly/wasi-http), enabling WebAssembly modules to make outbound HTTP requests and handle inbound HTTP connections. It is built on top of [libcpr](https://github.com/libcpr/cpr), a modern C++ HTTP client library.
+The WASI-HTTP plug-in provides an implementation of the [WASI HTTP proposal](https://github.com/WebAssembly/wasi-http)'s outgoing-request interface, enabling WebAssembly modules to make outbound HTTP requests. It is built on top of [libcpr](https://github.com/libcpr/cpr), a modern C++ HTTP client library.
 
 ## Build WasmEdge with WASI-HTTP Plug-in
 

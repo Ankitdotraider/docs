@@ -137,4 +137,4 @@ Languages that compile to Wasm GC and can run on WasmEdge include:
 - **Dart** — via `dart compile wasm`
 - **OCaml** — via the `wasm_of_ocaml` compiler
 
-For language-specific guides, refer to the respective language's documentation on compiling to the `wasm32-unknown-unknown` GC target.
+For language-specific guides, refer to each toolchain's documentation on enabling WebAssembly GC support in its Wasm backend.

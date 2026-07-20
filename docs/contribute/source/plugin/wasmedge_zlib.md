@@ -39,6 +39,6 @@ cmake --install build
 If the built `wasmedge` CLI tool cannot find the zlib plug-in, you can set the `WASMEDGE_PLUGIN_PATH` environment variable to the plug-in installation path (such as `/usr/local/lib/wasmedge/`, or the built plug-in path `build/plugins/wasmedge_zlib/`) to try to fix this issue.
 :::
 
-Then you will have an executable `wasmedge` runtime under `/usr/local/bin` and the zlib plug-in under `/usr/local/lib/wasmedge/libwasmedgePluginWasmEdgeZlib.so` after installation.
+Then you will have an executable `wasmedge` runtime under `/usr/local/bin` and the zlib plug-in under `/usr/local/lib/wasmedge/libwasmedgePluginWasmEdgeZlib.so` (or `.dylib` on macOS) after installation.
 
 For more information, you can refer to the [GitHub repository](https://github.com/WasmEdge/WasmEdge/tree/master/plugins/wasmedge_zlib).
