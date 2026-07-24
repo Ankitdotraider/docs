@@ -25,7 +25,7 @@ brew install opencv
 
 ## Build WasmEdge with WasmEdge-OpenCVMini Plug-in
 
-To enable the WasmEdge-OpenCVMini plug-in, developers need to [build WasmEdge from source](../build_from_src.md) with the cmake option `-DWASMEDGE_PLUGIN_OPENCVMINI=ON`.
+To enable the WasmEdge-OpenCVMini plug-in, developers need to [build WasmEdge from source](https://github.com/WasmEdge/docs/blob/main/docs/contribute/source/os/linux.md) with the cmake option `-DWASMEDGE_PLUGIN_OPENCVMINI=ON`.
 
 ```bash
 cd <path/to/your/wasmedge/source/folder>

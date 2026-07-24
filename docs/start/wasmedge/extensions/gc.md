@@ -14,7 +14,7 @@ This is enabled by default in WasmEdge since `0.16.0`. For WasmEdge `0.14.x`–`
 
 ## Prerequisites
 
-- WasmEdge `0.14.0` or later. See the [installation guide](../../../start/install.md).
+- WasmEdge `0.14.0` or later. See the [installation guide](https://github.com/WasmEdge/docs/blob/main/docs/start/install.md).
 - [`wat2wasm`](https://github.com/WebAssembly/wabt) from the WABT toolkit, to compile `.wat` source files to `.wasm`.
 
 Install WABT on Linux:
